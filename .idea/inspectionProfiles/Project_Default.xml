@@ -1,0 +1,59 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E127" />
+          <option value="E711" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N801" />
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="app.new_database.Price.query" />
+          <option value="app.new_database._Price.query" />
+          <option value="app.new_database._WorkCell.query" />
+          <option value="app.new_database._WorkCell.join" />
+          <option value="app.new_database._WorkCell.outerjoin" />
+          <option value="app.database._Price.query" />
+          <option value="app.database._WorkCell.join" />
+          <option value="app.database._WorkCell.outerjoin" />
+          <option value="app.database._WorkCell.query" />
+          <option value="app.database._StoreSection.query" />
+          <option value="app.database._StoreSection.join" />
+          <option value="app.database.BaseStoreSection.join" />
+          <option value="app.database.BasePrice.load" />
+          <option value="app.database.BaseWorkCell.outerjoin" />
+          <option value="app.database.BasePrice.insert" />
+          <option value="app.database.BaseWorkCell.update" />
+          <option value="app.database.BaseWorkCell.insert" />
+          <option value="app.database.BaseWorkCell.distinct" />
+          <option value="app.database.BasePrice.update" />
+          <option value="app.database.BasePrice.user" />
+          <option value="app.database.BasePrice.cid" />
+          <option value="app.database.BaseShopSection.insert" />
+          <option value="jinja2.environment.Environment.install_gettext_translations" />
+          <option value="property.cell" />
+          <option value="property.field" />
+          <option value="property.house" />
+          <option value="app.database.BaseShopSection.outerjoin" />
+          <option value="app.database.BaseShopSection.query" />
+          <option value="app.database.BasePrice.query" />
+          <option value="dp.PDict.foo" />
+          <option value="int.baz" />
+          <option value="int.__getitem__" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
